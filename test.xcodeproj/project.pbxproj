@@ -21,6 +21,8 @@
 		78425455167EE3C2001A3FD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78425436167EE3C2001A3FD2 /* Foundation.framework */; };
 		7842545D167EE3C2001A3FD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7842545B167EE3C2001A3FD2 /* InfoPlist.strings */; };
 		78425460167EE3C2001A3FD2 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7842545F167EE3C2001A3FD2 /* testTests.m */; };
+		7842546B167EE3F3001A3FD2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7842546A167EE3F3001A3FD2 /* RootViewController.m */; };
+		7842546E167EE413001A3FD2 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7842546D167EE413001A3FD2 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		7842545C167EE3C2001A3FD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7842545E167EE3C2001A3FD2 /* testTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testTests.h; sourceTree = "<group>"; };
 		7842545F167EE3C2001A3FD2 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		78425469167EE3F3001A3FD2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7842546A167EE3F3001A3FD2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7842546C167EE413001A3FD2 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		7842546D167EE413001A3FD2 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 			children = (
 				78425443167EE3C2001A3FD2 /* AppDelegate.h */,
 				78425444167EE3C2001A3FD2 /* AppDelegate.m */,
+				78425469167EE3F3001A3FD2 /* RootViewController.h */,
+				7842546A167EE3F3001A3FD2 /* RootViewController.m */,
+				7842546C167EE413001A3FD2 /* MyViewController.h */,
+				7842546D167EE413001A3FD2 /* MyViewController.m */,
 				7842543B167EE3C2001A3FD2 /* Supporting Files */,
 			);
 			path = test;
@@ -263,6 +273,8 @@
 			files = (
 				78425441167EE3C2001A3FD2 /* main.m in Sources */,
 				78425445167EE3C2001A3FD2 /* AppDelegate.m in Sources */,
+				7842546B167EE3F3001A3FD2 /* RootViewController.m in Sources */,
+				7842546E167EE413001A3FD2 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
